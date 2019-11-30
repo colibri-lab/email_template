@@ -1,0 +1,138 @@
+body{
+			margin: 0;
+			padding: 0;
+		}
+		table, table tr td{
+			border: none;
+		}
+		table{
+			font-family: 'Open Sans';
+		}
+		.main{
+			border-collapse: collapse;
+			margin: 5% auto;
+		}
+		.tr_first{
+			padding: 40px 0 30px 0; 
+			background-image: url('http://colibrilab.net/media/mailTemplateImgs/bg2.jpg'); 
+			background-repeat: no-repeat; 
+			background-size: cover;
+			max-width:100%; 
+			height:230px; 
+			display: block;
+		}
+		.tr_first td table tr td img{
+			display: block; 
+			margin: 0 auto;
+		}
+		.tr_first td table tr:nth-child(2) td{
+			padding:0 10px 10px;
+			font-size: 25px; 
+			text-transform: uppercase;
+			text-shadow: 0 0 20px #44b9ff; 
+			letter-spacing: 3px; 
+			color: white;
+		}
+		.tr_first td table tr:nth-child(3) td{
+			font-style: italic; 
+			color: white;
+		}
+		.tr_second td, .tr_third td{
+			background-color: white;
+			color: #64899c;
+			padding: 15px 30px;
+		}
+		.tr_second{
+			text-transform: uppercase;
+			font-size: 25px;
+			letter-spacing: 3px;
+			box-shadow: 0 0 10px lightgrey;
+
+		}
+		.tr_third {
+			box-shadow: 0 0 10px lightgrey;
+		}
+		.tr_forth, .tr_fifth{
+			background:#54bfff; 
+		}
+		.tr_forth td{
+			text-transform: uppercase; 
+			border: none;
+			font-size: 25px; 
+			letter-spacing: 3px; 
+			color: #64899c;
+			padding: 15px 0;
+		}
+		.tr_fifth td{
+			border: none; 
+			padding: 15px;
+		}
+		.tr_fifth img{
+    		border-radius: 5px;
+    		padding: 7px;
+    		box-shadow: 0 0 10px #ffffff;
+    		margin-bottom: 25px;
+    		border: 1px solid;
+
+		}
+		.tr_fifth table{
+			text-transform: uppercase;
+			color: white;
+			text-shadow: 0 0 10px;
+		}
+		
+		
+		 .tr_sixth{
+			background-image: url('http://colibrilab.net/media/mailTemplateImgs/Armenia.jpg'); 
+			background-repeat: no-repeat; 
+			background-size: cover;
+			max-width:100%; 
+			box-shadow: 0 0 10px rgb(211,211,211);
+		}
+		.tr_sixth td{
+			border: none;
+			font-size: 15px; 
+			color: #64899c;
+			padding: 5% 0 16%;
+		} 
+		.tr_sixth table{
+			box-shadow: 0 0 10px lightgrey;
+		}
+		.tr_seven{
+			border: none;
+			padding: 15px 0;
+		}
+		.tr_seven td{
+			text-transform: uppercase; 
+			font-size: 25px!important; 
+			letter-spacing: 3px; 
+			color: #64899c;
+		} 
+		.tr_sixth img{
+		    background: #54bfff;
+    		border-radius: 5px;
+    		padding: 7px;
+    		box-shadow: 0 0 10px rgb(68,185,255);
+    		margin-bottom: 25px;
+		}	
+		.icon{
+			padding-top: 15px!important;
+		}
+		.location{
+			margin-bottom: 0!important;
+		}
+		@media (max-width: 616px) and (min-width: 390px) {
+			.main{
+				width: 375px;
+			}
+			.tr_fifth td, .tr_sixth td{
+				padding: 15px 0;
+				font-size: 12px;
+			}
+			.icon{
+				padding-bottom: 35%!important;
+			}
+			.icon1{
+				padding-bottom: 33%!important;
+			}
+		}
